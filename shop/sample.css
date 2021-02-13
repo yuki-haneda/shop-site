@@ -3,11 +3,10 @@
 }
 
 header {
-  height: 60px;
+  height: 80px;
   width: 100%;
   padding: 10px 0;
   background-color: #770000;
-  color: #FFFACD;
 }
 
 header .headline{
@@ -15,6 +14,10 @@ header .headline{
     float: left;
     font-size: 30px;
     margin-left: 100px;
+}
+
+header .headline a{
+  color: #FFFACD;
 }
 
 .nav-list {

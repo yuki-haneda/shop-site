@@ -18,7 +18,7 @@ session_destroy();
 <body> 
     <header>
       <h1 class="headline">
-        <a>Roku's cigarettes farm</a>
+        <a href="shop_top.php">My Rings</a>
       </h1>
       <ul class="nav-list">
         <li class="nav-list-item"><a href="shop_about.php">About</a></li>

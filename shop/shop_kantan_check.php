@@ -1,12 +1,7 @@
 <?php
 session_start();
 session_regenerate_id(true);
-if(isset($_SESSION['member_login'])==false)
-{
-  print'ログインされていません。<br>';
-  print'<a href="shop_list.php">商品一覧へ</a>';
-  exit();
-}
+
 ?>
 
 <!DOCTYPE html>
@@ -16,8 +11,25 @@ if(isset($_SESSION['member_login'])==false)
   <title>My Rings</title> 
 </head> 
 <body> 
+    <header>
+      <h1 class="headline">
+        <a href="shop_top.php">My Rings</a>
+      </h1>
+      <ul class="nav-list">
+        <li class="nav-list-item"><a href="shop_about.php">About</a></li>
+        <li class="nav-list-item"><a href="shop_list.php">Products</a></li>
+        <li class="nav-list-item"><a href="shop_cartlook.php">Cart</a></li>
+      </ul>
+    </header>
     
     <?php
+    if(isset($_SESSION['member_login'])==false)
+    {
+      print'ログインされていません。<br>';
+      print'<a href="shop_list.php">商品一覧へ</a>';
+      exit();
+    }
+    
     $code=$_SESSION['member_code'];
     
     $dsn='mysql:dbname=shop;host=localhost;charset=utf8';

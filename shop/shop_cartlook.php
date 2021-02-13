@@ -7,13 +7,13 @@ session_regenerate_id(true);
 <html> 
 <head> 
   <meta charset="UTF-8"> 
-    <link rel="stylesheet" href="sample.css">
+  <link rel="stylesheet" href="sample.css">
   <title>My Rings</title> 
 </head> 
 <body> 
     <header>
       <h1 class="headline">
-        <a>Roku's cigarettes farm</a>
+        <a>My Rings</a>
       </h1>
       <ul class="nav-list">
         <li class="nav-list-item"><a href="shop_about.php">About</a></li>

@@ -14,7 +14,7 @@ session_regenerate_id(true);
 <body> 
     <header>
       <h1 class="headline">
-        <a href="shop_top.php">My Rings farm</a>
+        <a href="shop_top.php">My Rings</a>
       </h1>
       <ul class="nav-list">
         <li class="nav-list-item"><a href="shop_about.php">About</a></li>

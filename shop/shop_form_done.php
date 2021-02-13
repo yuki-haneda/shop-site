@@ -6,9 +6,20 @@ session_regenerate_id(true);
 <html> 
 <head> 
   <meta charset="UTF-8"> 
+  <link rel="stylesheet" href="sample.css">
   <title>My Rings</title> 
 </head> 
 <body> 
+    <header>
+      <h1 class="headline">
+        <a href="shop_top.php">My Rings</a>
+      </h1>
+      <ul class="nav-list">
+        <li class="nav-list-item"><a href="shop_about.php">About</a></li>
+        <li class="nav-list-item"><a href="shop_list.php">Products</a></li>
+        <li class="nav-list-item"><a href="shop_cartlook.php">Cart</a></li>
+      </ul>
+    </header>
     
     <?php
     
@@ -189,6 +200,7 @@ session_regenerate_id(true);
       
       }
     
+    }
     catch (Exception $e)
     {
       print'ただいま障害により大変ご迷惑をお掛けしております。';

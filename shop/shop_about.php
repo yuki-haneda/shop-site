@@ -8,7 +8,7 @@
 <body> 
     <header>
       <h1 class="headline">
-        <a>Roku's cigarettes farm</a>
+        <a>My Rings</a>
       </h1>
       <ul class="nav-list">
         <li class="nav-list-item"><a href="shop_about.php">About</a></li>
@@ -19,11 +19,11 @@
     
     <br>
     <div id="about">
-      <h1>About Roku's cigarettes farm...</h><br>
+      <h1>About My Rings...</h><br>
     </div>
     <div class="main">
       <p>このサイトはテストで作っています。<br>
-        喫煙者も暮らしやすい国でありますように・・・</p><br>
+        </p><br>
     </div>
 
       <?php
